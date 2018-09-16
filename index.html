@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="clear_canvas()">
+        <div style="float:left">
+            <canvas id="jPolygon" width="640" height="480" style="cursor:crosshair" data-imgsrc="example_mushroom_pic.jpg" onmousedown="point_it(event)" oncontextmenu="return false;">
+                Your browser does not support the HTML5 canvas tag.
+            </canvas>
+        </div>
+        <div style="float:left; margin-left:20px;">
+            <div>
+                <button onclick="undo()">Undo</button>
+                <button onclick="clear_canvas()">Clear</button>
+                <p>Press <strong>Left Click</strong> to draw a point.</p>
+                <p><strong>CTRL+Click</strong> or <strong>Right Click</strong> to close the polygon.</p>
+            </div>
+            <div>
+                <p><strong>Coordinates:</strong></p>
+                <textarea id="coordinates" disabled="disabled" style="width:300px; height:200px;"></textarea>
+            </div>
+            <div>
+                <p>Go to <a href="http://www.matteomattei.com/projects/jpolygon">project website</a> - <a href="https://github.com/matteomattei/jPolygon">source code</a></p>
+            </div>
+        </div>
+        <script type="text/javascript" src="jPolygon.js"></script>
+    
+	<div id=link_lineup>
+		<a href="http://google.com" class="link_button">Go to Google</a>
+		<a href="http://google.com" class="link_button">Go to Google</a>
+		<a href="http://google.com" class="link_button">Go to Google</a>
+		<a href="http://google.com" class="link_button">Go to Google</a>
+	</div>
+<button class="label_button">Styled Button</button>
+<img src="example_mushroom_pic.jpg" class="main_fig">
+</body>
+</html>

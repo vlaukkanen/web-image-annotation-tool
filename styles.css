@@ -1,0 +1,46 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: red;
+}
+
+.main_fig {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.label_button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.label_button:hover {
+    background-color: green;
+}
+
+#link_lineup{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  background: gray;
+}
+
+
+a.link_button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
+}
